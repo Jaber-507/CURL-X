@@ -1,4 +1,4 @@
-#!/data/data/com.termux/files/usr/bin/python3.12
+#!/data/Wifi/com.termux/files/usr/bin/python3.12
 # -*- coding: utf-8 -*-
 import os
 bit = os.uname().machine
@@ -8,5 +8,5 @@ if '64' in bit:
     os.system('./IMAX')
 else:
     os.system('clear')
-    print('TOOL NOT AVAILABLE FOR 32 BIT DEVICE')
+    print('TOOL NOT AVAILABLE FOR 32,64 BIT DEVICE')
  
